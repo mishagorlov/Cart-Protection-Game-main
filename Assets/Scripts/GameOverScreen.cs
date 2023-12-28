@@ -29,19 +29,19 @@ public class GameOverScreen : MonoBehaviour
     {
         Debug.Log("Showing ghost info!");
         ghostsInfo.SetActive(true);
-       // aS.PlayOneShot(ghostsClip);
+       aS.PlayOneShot(ghostsClip);
     }
 
     void ShowLapInfo()
     {
         lapsInfo.SetActive(true);
-     //  aS.PlayOneShot(lapsClip);
+     aS.PlayOneShot(lapsClip);
     }
 
     void ShowTreasureInfo()
     {
         treasureInfo.SetActive(true);
-    //   aS.PlayOneShot(treasureClip);
+    aS.PlayOneShot(treasureClip);
     }
 
     void DisplayButtons()
